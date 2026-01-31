@@ -22,9 +22,19 @@ def generatePassword(length):
 # some bs, but it looks cool.
 def main():
     print("Welcome to the Password Generator!")
-    leng = input("How long your password will be? : ")
+    while True:
+        leng = input("How long your password will be? : ")
+        try:
+            n = int(leng)
+            if n <= 0:
+                print("Please enter a positive integer greater than zero.")
+                continue
+            break
+        except ValueError:
+            print("Please enter a valid integer (e.g. 12).")
     print("\nCreating your password...\n")
     time.sleep(4)
     print(generatePassword(leng))
 
-main()
+if __name__ == "__main__":
+    main()
