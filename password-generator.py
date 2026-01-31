@@ -21,7 +21,7 @@ def generatePassword(length):
 
 # some bs, but it looks cool.
 def main():
-    print("Welocme to the Password Generator!")
+    print("Welcome to the Password Generator!")
     leng = input("How long your password will be? : ")
     print("\nCreating your password...\n")
     time.sleep(4)
