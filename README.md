@@ -13,7 +13,7 @@ It includes a single Python file, which has the job to:
 · show the password to the user  
 
 ## Tools 🛠️
-I used https://www.w3schools.com and ChatGPT while making this project.  
+I used [w3schools](https://www.w3schools.com) and ChatGPT while making this project.  
     
 ・ W3Schools for syntax rules that I forgot during the coding session  
 ・ ChatGPT to discuss and fix the errors while I learn and develop myself more  
